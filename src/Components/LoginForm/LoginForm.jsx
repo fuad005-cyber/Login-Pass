@@ -15,7 +15,7 @@ const LoginForm = () => {
             <MdEmail className='icon'/>
         </div>
         {action === 'Sign up'?<div><div className="input-box">
-            <input name='password' type="password" placeholder='Ad və Soyadı' required  maxLength={30}/>
+            <input name='password' type="text" placeholder='Ad və Soyadı' required  maxLength={30}/>
             <FaUser className='icon'/>
         </div></div>:<div></div>}
         <div className="input-box">
