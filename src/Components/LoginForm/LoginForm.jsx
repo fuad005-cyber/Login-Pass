@@ -31,10 +31,8 @@ const LoginForm = () => {
        
         {action ==='Login'? <button type='submit'>Daxil ol</button>:<button type='submit' onClick={()=>{setAction("Login")}}>Qeydiyyatdan keç</button>}
         <div className="register-link">
-            
-            {action ==='Sign up'?<div></div>:<a href="#" onClick={()=>{setAction("Sign up")}}>Qeydiyyatdan keçin</a>}
             {action ==='Login'?<p>Hesabınız yoxdur?</p>:<div></div>}
-            
+            {action ==='Sign up'?<div></div>:<a href="#" onClick={()=>{setAction("Sign up")}}>Qeydiyyatdan keçin</a>}
         </div>
       </form>
     </div>
